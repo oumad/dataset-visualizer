@@ -120,3 +120,26 @@ dist
 # OS metadata
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Environment files
+.env.local
+.env.*.local
+*.local
+
+# Build outputs
+dist/
+build/

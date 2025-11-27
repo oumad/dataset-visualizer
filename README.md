@@ -43,6 +43,17 @@ A premium web application designed to visualize, manage, and export image datase
 
 4.  Open your browser and navigate to `http://localhost:5173`.
 
+### Desktop Development (Tauri)
+
+To run the standalone desktop application locally:
+
+1.  Ensure you have **Rust** installed.
+2.  Run the desktop development server:
+    ```bash
+    npm run desktop
+    ```
+    This will launch the application in a native window.
+
 ## Building for Production
 
 To create a production build:
